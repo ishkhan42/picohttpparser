@@ -11,8 +11,5 @@ endif()
 
 add_library(picohttpparser picohttpparser.hpp picohttpparser.cpp)
 
-add_executable(picohttpparser_test test.c)
-target_link_libraries(picohttpparser_test picohttpparser)
-
-add_executable(picohttpparser_bench bench.c)
+add_executable(picohttpparser_bench bench.cpp)
 target_link_libraries(picohttpparser_bench picohttpparser)
