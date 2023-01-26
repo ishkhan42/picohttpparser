@@ -32,7 +32,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include "picotest/picotest.h"
-#include "picohttpparser.h"
+#include "picohttpparser.hpp"
 
 static int bufis(const char *s, size_t l, const char *t)
 {
